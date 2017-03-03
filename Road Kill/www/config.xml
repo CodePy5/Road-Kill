@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.codepy.roadkill" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Road Kill</name>
+    <description>
+        Avoid the car! Made by CodePy Media: http://cpmedia.ga/
+    </description>
+    <author email="bflippy.codepy@gmail.com" href="codepy.ga">
+       CodePy Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+<plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" /> <!-- Required for iOS9 -->
+<preference name="loadUrlTimeoutValue" value="700000" />
+<plugin name="cordova-plugin-whitelist" spec="1.1.0" />
+<plugin name="cordova-plugin-screen-orientation" spec="~1.4.0" />
+</widget>
