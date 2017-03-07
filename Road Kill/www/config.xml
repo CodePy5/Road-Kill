@@ -16,4 +16,10 @@
 <preference name="loadUrlTimeoutValue" value="700000" />
 <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
 <plugin name="cordova-plugin-screen-orientation" spec="~1.4.0" />
+<platform name="android">
+		<icon qualifier="ldpi" src="icon-36-ldpi.png"/>
+		<icon qualifier="mdpi" src="icon-48-mdpi.png"/>
+		<icon qualifier="hdpi" src="icon-72-hdpi.png"/>
+		<icon qualifier="xhdpi" src="icon-96-xhdpi.png"/>
+	</platform>
 </widget>
