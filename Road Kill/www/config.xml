@@ -17,6 +17,7 @@
 <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
 <plugin name="cordova-plugin-screen-orientation" spec="~1.4.0" />
 <platform name="android">
+	<preference name="android-targetSdkVersion" value="26" />
 		<icon qualifier="ldpi" src="icon-36-ldpi.png"/>
 		<icon qualifier="mdpi" src="icon-48-mdpi.png"/>
 		<icon qualifier="hdpi" src="icon-72-hdpi.png"/>
